@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+#barraRecomendaciones{
+    display: flex;
+    gap: 15px;
+}
+
+body{
+    width: 100%;
+    display: grid;
+
+    grid-template-rows: 20%,80%;
+    
+    
+}
+
+/* Color letas anclas*/
+a{
+    color: black;
+    text-decoration: none;
+}
+/* BARRA DE NAVEGACION*/
+
+nav{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+    background-color: #FFE600;
+    color: white;
+    justify-content: space-between;
+    
+      
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+   
+}
+   
+/* LOGO Y CATEGORIAS */
+
+.logoCat{
+    display: flex;
+    flex-direction: column;
+    
+    
+       
+}
+
+
+.logoCat .logo, .logoCat .categ select{
+    padding: 5px 5px;
+}
+
+
+/* BARRA NAVEGACION*/
+
+.serch-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.serch-nav form, .serch-nav a {
+    padding: 8px 5px 10px 0px;
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+
+input{
+    position: relative;
+    height: 35px;
+    width: 90%;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    padding: 10px 30px 10px 15px; 
+    font-size: 16px;
+    margin: auto;
+}
+button{
+    background-color: white;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    padding-left: 0px;
+    margin: auto;
+}
+
+/*OFERTAS 2024 Y CUENTA */
+
+.cuentaOferta{
+    display: flex;
+    flex-direction: column;
+}
+.cuenta{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.ofertas24{
+    padding: 1px 0px 10px 110px;
+}
+
+.cuenta a {
+    padding: 5px 0px 0px 80px;
+    font-size: 12px;
+    font-family: sans-serif;
+   
+
+}
+
+
+.categ option{
+    background-color: #333333;
+    color: white;
+    text-decoration: solid;
+}
+
+.categ select{
+    background-color: #FFE600;
+    color: black;
+    text-decoration: solid;
+    border: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+.contenedorArt1{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.contenedorArt2{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    padding-top: 15px;
+    gap: 15px;
+    
+}
+
+.contenedorArt1 div img{
+    justify-content: space-between;
+    width: 48%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    text-decoration: none;
+    padding: 0;
+    margin: 0 10px;
+    gap: 20px;
+}
+
+h2{
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 25px;
+    
+    font-weight: bold;
+}
+p{
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 25px;
+    
+    font-weight: bold;
+}
+
+.promo2 a{
+    font-size: 15px;
+    font-weight: lighter;
+    color: blue;
+}
+
+.contenedorArt2 div img{
+    justify-content: space-between;
+    width: 24%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    text-decoration: none;
+    padding: 5px 0px;
+    margin: 1px 1px 1px 5px;
+    gap: 25px;
+}
