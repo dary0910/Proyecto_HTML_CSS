@@ -208,3 +208,29 @@ p{
     margin: 1px 1px 1px 5px;
     gap: 25px;
 }
+
+footer{
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 30px;
+    width: 100%;
+    position: static;
+    
+
+}
+.footer a{
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 8px 5px 10px 0px;
+}
+.footer p{
+    font-size: 8px;
+    font-family: sans-serif;
+    
+}
