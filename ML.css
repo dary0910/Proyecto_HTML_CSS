@@ -4,10 +4,7 @@
     padding: 0;
     
 }
-#barraRecomendaciones{
-    display: flex;
-    gap: 15px;
-}
+
 
 body{
     width: 100%;
@@ -154,7 +151,6 @@ button{
 
 .contenedorArt2{
     width: 100%;
-
     display: grid;
     grid-template-columns: repeat(1, 4fr);
     padding-top: 15px;
